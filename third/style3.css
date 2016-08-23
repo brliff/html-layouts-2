@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  width: 900px;
+  border: 1px solid #333333;
+  font-family: "Open Sans";
+}
+
+.header {
+  height: 50px;
+  background-color: #333333;
+  color: #fff;
+}
+
+.apple {
+  display: inline-block;
+  margin: 15px 25px;
+}
+
+.google {
+  display: inline-block;
+}
+
+.body {
+  column-count: 2;
+  column-gap: 40px;
+  margin: 30px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.body h1 {
+  font-size: 40px;
+}
+
+.body img {
+  align-self: center;
+}
+
+.footer {
+  height: 50px;
+  background-color: #333333;
+}

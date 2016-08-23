@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.header .red {
+  display: inline-block;
+  height: 150px;
+  width: 32%;
+  background: #D0021B;
+}
+
+.header .blue {
+  display: inline-block;
+  height: 150px;
+  width: 32%;
+  margin: 0 1%;
+  background: #4A90E2;
+}
+
+.header .grey {
+  display: inline-block;
+  height: 150px;
+  width: 32%;
+  background: #4A4A4A;
+}
+
+.message {
+  font-family: "Open Sans";
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.big-box {
+  width: 100%;
+  float: left;
+}
+
+.big-box .bigRed {
+  display: inline-block;
+  background: #D0021B;
+  height: 250px;
+  width: 35%;
+}
+
+.big-box .bigBlue {
+  display: inline-block;
+  /*display: flex;*/
+  background: #4A90E2;
+  height: 250px;
+  width: 65%;
+}
+
+.footer {
+  width: 100%;
+  float: left;
+  padding-top: 15px;
+}
+
+.footBlue {
+  height: 125px;
+  width: 100%;
+  background: #4A90E2;
+}
+
+.footRed {
+  position: relative;
+  float: right;
+  height: 125px;
+  width: 25%;
+  background: #D0021B;
+}
+
+.footGrey {
+  position: absolute;
+  top: 0;
+  height: 125px;
+  width: 65%;
+  left: 17.5%;
+  background: #4A4A4A;
+}
